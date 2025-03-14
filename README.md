@@ -21,7 +21,22 @@ Com base nesses desafios, este projeto visa **criar uma plataforma inteligente q
 
 ---
 
-## **3. Product Backlog**
+## **3. Equipe do Projeto**
+
+A equipe responsável pelo desenvolvimento do projeto é composta pelos seguintes membros:
+
+| Nome                                  | Função        |
+|---------------------------------------|--------------|
+| Miguel Carvalho Soares               | Product Owner (PO) |
+| Thiago Frederico da Silva Zani       | Dev Team     |
+| Jean Lucas de Faria Silva            | Dev Team     |
+| Gabriel Brosig Briscese              | Dev Team     |
+| Jonas Rafael Siqueira Ribeiro        | Dev Team     |
+| Jonatas Mathias Dalló                | Scrum Master |
+
+---
+
+## **4. Product Backlog**
 
 O Product Backlog contém todas as funcionalidades organizadas por prioridade, de acordo com o retorno de valor ao negócio.
 
@@ -39,7 +54,7 @@ O Product Backlog contém todas as funcionalidades organizadas por prioridade, d
 
 ---
 
-### **3.1. User Stories**
+### **4.1. User Stories**
 
 Cada User Story foi elaborada seguindo o formato:
 **“Como <tipo de usuário>, quero <funcionalidade desejada> para <algum motivo que remeta valor para o negócio>.”**
@@ -67,7 +82,7 @@ Cada User Story foi elaborada seguindo o formato:
 
 ---
 
-## **4. Sprint Backlog - Primeira Sprint**
+## **5. Sprint Backlog - Primeira Sprint**
 
 ### **Objetivo da Sprint:** Criar um **protótipo navegável no Figma** e iniciar a implementação de funcionalidades básicas de PLN, com foco na extração de dados de um CSV e pré-processamento de texto.
 
@@ -102,11 +117,5 @@ Cada User Story foi elaborada seguindo o formato:
    - Aplicar técnicas básicas de **pré-processamento de texto**, como remoção de stopwords, normalização e tokenização.
    - **Resultado esperado:** CSV carregado e texto processado para futuras análises semânticas.
 
----
-
-### **Mudança na Abordagem de PLN**
-
-- O foco nesta Sprint será implementar apenas as funcionalidades mais simples de PLN.
-- As funcionalidades mais avançadas, como sumarização automática detalhada e PLN aprofundado, serão trabalhadas em sprints futuras.
-
 Esta documentação foi elaborada para refletir os objetivos do projeto, os desafios enfrentados e as funcionalidades planejadas para as primeiras entregas. Se houver necessidade de ajustes ou mais detalhes, estamos à disposição!
+
