@@ -1,5 +1,15 @@
 # **Documentação do Projeto - Automação e Extração de Informações em Atendimento Inteligente**
 
+## **Sumário**
+
+- [1. Objetivo do Projeto](#1-objetivo-do-projeto)
+- [2. Descrição da Problemática](#2-descrição-da-problemática)
+- [3. Product Backlog](#3-product-backlog)
+  - [3.1. User Stories](#31-user-stories)
+- [4. Sprint Backlog - Primeira Sprint](#4-sprint-backlog---primeira-sprint)
+- [5. BurnDown da Sprint 1](#5-burndown-da-sprint-1)
+- [6. Equipe do Projeto](#6-equipe-do-projeto)
+
 ## **1. Objetivo do Projeto**
 
 O objetivo deste projeto é desenvolver uma solução capaz de **automatizar a extração de informações relevantes a partir de interações textuais** em sistemas de atendimento automatizado. O sistema utilizará técnicas de **Processamento de Linguagem Natural (PLN)** para **extrair, classificar e sumarizar** dados de grandes volumes de interações, permitindo a geração de insights estratégicos para otimização do atendimento ao cliente. Além disso, a aplicação fornecerá uma interface intuitiva para facilitar a navegação e a interpretação dos dados extraídos.
@@ -105,9 +115,9 @@ Cada User Story foi elaborada seguindo o formato:
    - Aplicar técnicas básicas de **pré-processamento de texto**, como remoção de stopwords, normalização e tokenização.
    - **Resultado esperado:** CSV carregado e texto processado para futuras análises semânticas.
 
-## **5. BurnDown da Sprint 1** 
-![BurnDown da Sprint 1](/img/burndown_sprint1.png)
+## **5. BurnDown da Sprint 1**
 
+![BurnDown da Sprint 1](/img/burndown_sprint1.png)
 
 ## **6. Equipe do Projeto**
 
