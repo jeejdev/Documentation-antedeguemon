@@ -38,15 +38,17 @@ O Product Backlog contém todas as funcionalidades organizadas por prioridade, d
 
 ### **Épicos**
 
-1. **Mecanismo de Extração de Informações**
-2. **Busca Semântica**
-3. **Sumarização Automática de Interações**
-4. **Classificação Automática de Atendimentos**
-5. **Geração de Insights e Dashboards**
-6. **Gestão de Usuários e Controle de Acesso**
-7. **Escalabilidade e Performance**
-8. **Segurança e Conformidade com LGPD/GDPR**
-9. **Integrações com APIs Externas**
+| Épico                                        | Prioridade | Sprint Relacionada             |
+|----------------------------------------------|------------|--------------------------------|
+| **Mecanismo de Extração de Informações**     | Alta       | Sprint 1, Sprint 2             |
+| **Busca Semântica**                          | Alta       | Sprint 1, Sprint 3             |
+| **Sumarização Automática de Interações**     | Média      | Sprint 2, Sprint 3             |
+| **Classificação Automática de Atendimentos** | Média      | Sprint 3                       |
+| **Geração de Insights e Dashboards**         | Alta       | Sprint 1, Sprint 3             |
+| **Gestão de Usuários e Controle de Acesso**  | Alta       | Sprint 1, Sprint 2             |
+| **Escalabilidade e Performance**             | Baixa      | Sprint 3                       |
+| **Segurança e Conformidade com LGPD/GDPR**   | Média      | Sprint 2                       |
+| **Integrações com APIs Externas**            | Alta       | Sprint 2, Sprint 3             |
 
 ---
 
@@ -61,7 +63,7 @@ Cada User Story foi elaborada seguindo o formato:
    - Critérios de Aceitação:
      - A extração deve ser automática e baseada em regras de PLN.
      - O sistema deve permitir visualizar os dados extraídos de cada interação.
-     - O sistema deve processar dados provenientes de arquivos CSV e API do Jira.
+     - O sistema deve processar dados provenientes de arquivos CSV.
 
 #### **Busca Semântica**
 
@@ -78,6 +80,34 @@ Cada User Story foi elaborada seguindo o formato:
      - A sumarização deve destacar os principais pontos da conversa.
      - O resultado deve ser acessível via API.
      - A solução deve utilizar modelos de PLN pré-treinados para otimização.
+
+#### **Classificação Automática de Atendimentos**
+
+4. **Como Admin, quero que o sistema classifique automaticamente os atendimentos para priorizar chamados e melhorar o atendimento.**
+   - Critérios de Aceitação:
+     - A classificação deve ser baseada em categorias predefinidas.
+     - O sistema deve permitir ajustes nas categorias.
+
+#### **Geração de Insights e Dashboards**
+
+5. **Como Admin, quero visualizar insights e métricas em um dashboard para acompanhar a performance do atendimento.**
+   - Critérios de Aceitação:
+     - O dashboard deve exibir métricas como número de dúvidas, reclamações e outros tipos de interação.
+     - Deve permitir filtros por data e categorias.
+
+#### **Gestão de Usuários e Controle de Acesso**
+
+6. **Como Admin, quero gerenciar usuários e definir permissões para garantir a segurança do sistema.**
+   - Critérios de Aceitação:
+     - O sistema deve permitir cadastro, edição e exclusão de usuários.
+     - Deve haver controle de acesso baseado em papéis.
+
+#### **Escalabilidade e Performance**
+
+7. **Como Admin, quero que o sistema seja escalável e tenha boa performance para suportar grandes volumes de dados.**
+   - Critérios de Aceitação:
+     - O sistema deve ser capaz de processar grandes volumes de dados sem perda de performance.
+     - Deve haver suporte para múltiplos usuários simultâneos
 
 ---
 
