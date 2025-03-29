@@ -8,7 +8,7 @@ O objetivo deste projeto é desenvolver uma solução capaz de **automatizar a e
 
 ## **2. Descrição da Problemática**
 
-Empresas que utilizam sistemas de atendimento automatizado, como **chatbots, assistentes virtuais e CRMs**, geram **grandes volumes de dados textuais** a partir das interações entre clientes e sistemas de inteligência artificial. No entanto, transformar essa grande massa de informações em **insights estratégicos úteis** continua sendo um desafio. 
+Empresas que utilizam sistemas de atendimento automatizado, como **chatbots, assistentes virtuais e CRMs**, geram **grandes volumes de dados textuais** a partir das interações entre clientes e sistemas de inteligência artificial. No entanto, transformar essa grande massa de informações em **insights estratégicos úteis** continua sendo um desafio.
 
 Os principais problemas enfrentados são:
 
@@ -21,22 +21,7 @@ Com base nesses desafios, este projeto visa **criar uma plataforma inteligente q
 
 ---
 
-## **3. Equipe do Projeto**
-
-A equipe responsável pelo desenvolvimento do projeto é composta pelos seguintes membros:
-
-| Nome                                  | Função        |
-|---------------------------------------|--------------|
-| Miguel Carvalho Soares               | Product Owner (PO) |
-| Thiago Frederico da Silva Zani       | Dev Team     |
-| Jean Lucas de Faria Silva            | Dev Team     |
-| Gabriel Brosig Briscese              | Dev Team     |
-| Jonas Rafael Siqueira Ribeiro        | Dev Team     |
-| Jonatas Mathias Dalló                | Scrum Master |
-
----
-
-## **4. Product Backlog**
+## **3. Product Backlog**
 
 O Product Backlog contém todas as funcionalidades organizadas por prioridade, de acordo com o retorno de valor ao negócio.
 
@@ -54,12 +39,13 @@ O Product Backlog contém todas as funcionalidades organizadas por prioridade, d
 
 ---
 
-### **4.1. User Stories**
+### **3.1. User Stories**
 
 Cada User Story foi elaborada seguindo o formato:
-**“Como <tipo de usuário>, quero <funcionalidade desejada> para <algum motivo que remeta valor para o negócio>.”**
+**“Como \<tipo de usuário\>, quero \<funcionalidade desejada\> para \<algum motivo que remeta valor para o negócio\>.”**
 
 #### **Mecanismo de Extração de Informações**
+
 1. **Como Admin, quero que o sistema extraia automaticamente informações relevantes das interações para facilitar a análise de atendimento.**
    - Critérios de Aceitação:
      - A extração deve ser automática e baseada em regras de PLN.
@@ -67,6 +53,7 @@ Cada User Story foi elaborada seguindo o formato:
      - O sistema deve processar dados provenientes de arquivos CSV e API do Jira.
 
 #### **Busca Semântica**
+
 2. **Como Admin, quero configurar filtros na busca semântica para refinar os resultados exibidos.**
    - Critérios de Aceitação:
      - A busca deve permitir filtragem por palavras-chave e categorias.
@@ -74,6 +61,7 @@ Cada User Story foi elaborada seguindo o formato:
      - Deve haver integração com um banco de vetores (exemplo: Pinecone).
 
 #### **Sumarização Automática de Interações**
+
 3. **Como Admin, quero obter um resumo automático das interações para economizar tempo na análise dos atendimentos.**
    - Critérios de Aceitação:
      - A sumarização deve destacar os principais pontos da conversa.
@@ -82,9 +70,9 @@ Cada User Story foi elaborada seguindo o formato:
 
 ---
 
-## **5. Sprint Backlog - Primeira Sprint**
+## **4. Sprint Backlog - Primeira Sprint**
 
-### **Objetivo da Sprint:** Criar um **protótipo navegável no Figma** e iniciar a implementação de funcionalidades básicas de PLN, com foco na extração de dados de um CSV e pré-processamento de texto.
+### **Objetivo da Sprint:** Criar um **protótipo navegável no Figma** e iniciar a implementação de funcionalidades básicas de PLN, com foco na extração de dados de um CSV e pré-processamento de texto
 
 | Rank | Prioridade | User Story                                                                                                                 | Estimativa |
 | ---- | ---------- | -------------------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -105,7 +93,7 @@ Cada User Story foi elaborada seguindo o formato:
 
 3. **Busca e Exibição Semântica**
    - Criar um **protótipo navegável no Figma** para a busca semântica e exibição de resultados.
-   - **Resultado esperado:** Interface interativa demonstrando a busca e a exibição de resultados relevantes.
+   - **Resultado esperado:** Interface que mostra onde ficará disponível a busca semântica.
 
 4. **Dashboard**
    - Criar um **protótipo navegável no Figma** para o dashboard de classificações e sumarização.
@@ -117,5 +105,17 @@ Cada User Story foi elaborada seguindo o formato:
    - Aplicar técnicas básicas de **pré-processamento de texto**, como remoção de stopwords, normalização e tokenização.
    - **Resultado esperado:** CSV carregado e texto processado para futuras análises semânticas.
 
-Esta documentação foi elaborada para refletir os objetivos do projeto, os desafios enfrentados e as funcionalidades planejadas para as primeiras entregas. Se houver necessidade de ajustes ou mais detalhes, estamos à disposição!
+## **5. BurnDown da Sprint 1** 
+![BurnDown da Sprint 1](/img/burndown_sprint1.png)
 
+
+## **6. Equipe do Projeto**
+
+|    Função     | Nome                           |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
+| :-----------: | :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Dev Team     | Thiago Frederico da Silva Zani |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-zani-1b8503249/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/zani19)          |
+| Dev Team  | Jean Lucas de Faria Silva      |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jeanlfs/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/jeejinf)          |
+|   Dev Team    | Gabriel Brosig Briscese        |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-brosig-briscese-344a5587/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Briscese)   |
+|   Dev Team    | Jonas Rafael Siqueira Ribeiro      |                 [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonasrsribeiro/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/jonasrsribeiro)         |
+|   Scrum Master  | Jonatas Mathias Dalló     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonatas-mathias-147638206) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Jonatas-Dallo)          |
+|   Product Owner   | Miguel Carvalho Soares     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-carvalho-soares-722b161a3/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Miguel-C1)          |
