@@ -41,10 +41,10 @@ O Product Backlog contém todas as funcionalidades organizadas por prioridade, d
 | Épico                                        | Prioridade | Sprint Relacionada             |
 |----------------------------------------------|------------|--------------------------------|
 | **Mecanismo de Extração de Informações**     | Alta       | Sprint 1, Sprint 2             |
-| **Busca Semântica**                          | Alta       | Sprint 1, Sprint 3             |
+| **Busca Semântica**                          | Alta       | Sprint 2, Sprint 3             |
 | **Sumarização Automática de Interações**     | Média      | Sprint 2, Sprint 3             |
 | **Classificação Automática de Atendimentos** | Média      | Sprint 3                       |
-| **Geração de Insights e Dashboards**         | Alta       | Sprint 1, Sprint 3             |
+| **Geração de Insights e Dashboards**         | Alta       | Sprint 2, Sprint 3             |
 | **Gestão de Usuários e Controle de Acesso**  | Alta       | Sprint 1, Sprint 2             |
 | **Escalabilidade e Performance**             | Baixa      | Sprint 3                       |
 | **Segurança e Conformidade com LGPD/GDPR**   | Média      | Sprint 2                       |
