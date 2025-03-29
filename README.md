@@ -9,6 +9,7 @@
 - [4. Sprint Backlog - Primeira Sprint](#4-sprint-backlog---primeira-sprint)
 - [5. BurnDown da Sprint 1](#5-burndown-da-sprint-1)
 - [6. Equipe do Projeto](#6-equipe-do-projeto)
+- [7. Links dos Repositórios](#7-links-dos-repositórios)
 
 ## **1. Objetivo do Projeto**
 
@@ -129,3 +130,12 @@ Cada User Story foi elaborada seguindo o formato:
 |   Dev Team    | Jonas Rafael Siqueira Ribeiro      |                 [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonasrsribeiro/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/jonasrsribeiro)         |
 |   Scrum Master  | Jonatas Mathias Dalló     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonatas-mathias-147638206) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Jonatas-Dallo)          |
 |   Product Owner   | Miguel Carvalho Soares     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-carvalho-soares-722b161a3/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Miguel-C1)          |
+
+## **7. Links dos Repositórios**
+
+Aqui estão os links para os repositórios relacionados ao projeto:
+
+- [Pré-processamento](https://github.com/AntedeguemonAPI/pre-processamento)
+- [Banco de Dados](https://github.com/AntedeguemonAPI/banco-de-dados)
+- [Frontend](https://github.com/AntedeguemonAPI/frontend)
+- [Controller de Usuários e Autenticação](https://github.com/AntedeguemonAPI/controller-usuarios-autenticao)
