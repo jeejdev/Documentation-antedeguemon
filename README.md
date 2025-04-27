@@ -174,8 +174,8 @@ Desenvolver funcionalidades adicionais no sistema, incluindo a implementação d
 
 ### **Telas e Funcionalidades da Segunda Sprint:**
 
-1. **Busca Semântica com Filtros**  
-   - **Objetivo:** Permitir que o admin refine as buscas por palavras-chave e categorias, utilizando filtros semânticos.  
+1. **Busca Semântica**  
+   - **Objetivo:** Permitir que o admin refine as buscas com semelhança semântica.  
    - **Resultado Esperado:** Funcionalidade para filtrar resultados de busca e integrá-los com o banco de vetores (ex. Pinecone).
 
 2. **Sumarização Automática das Interações**  
@@ -183,14 +183,10 @@ Desenvolver funcionalidades adicionais no sistema, incluindo a implementação d
    - **Resultado Esperado:** A geração de resumos automáticos das conversas, acessíveis via API.
 
 3. **Dashboard de Insights e Métricas**  
-   - **Objetivo:** Criar um dashboard que mostre métricas como número de dúvidas, reclamações, tipos de interação, com filtros por data e categoria.  
+   - **Objetivo:** Criar um dashboard que mostre métricas.  
    - **Resultado Esperado:** Uma interface interativa com gráficos e métricas claras para análise de performance de atendimento.
 
-4. **Integração de Busca Semântica com Banco de Vetores**  
-   - **Objetivo:** Integrar a busca semântica com um banco de vetores como o Pinecone, para melhorar a relevância e eficiência na busca.  
-   - **Resultado Esperado:** A busca semântica deve retornar resultados mais relevantes com base em contextos semânticos.
-
-5. **Integração da Sumarização Automática**  
+4. **Integração da Sumarização Automática**  
    - **Objetivo:** Incorporar a sumarização automática de interações no sistema, gerando insights diários.  
    - **Resultado Esperado:** O sistema deve gerar relatórios diários automáticos que sumarizam as interações e apresentam informações úteis para a análise.
 
