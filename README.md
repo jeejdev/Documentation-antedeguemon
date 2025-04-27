@@ -7,9 +7,12 @@
 - [3. Product Backlog](#3-product-backlog)
   - [3.1. User Stories](#31-user-stories)
 - [4. Sprint Backlog - Primeira Sprint](#4-sprint-backlog---primeira-sprint)
-- [5. BurnDown da Sprint 1](#5-burndown-da-sprint-1)
-- [6. Equipe do Projeto](#6-equipe-do-projeto)
-- [7. Links dos Repositórios](#7-links-dos-repositórios)
+     - [4.1. BurnDown da Sprint 1](#41-burndown-da-sprint-1)
+
+- [5. Sprint Backlog - Segunda Sprint](#5-sprint-backlog---segunda-sprint)
+     - [5.1. BurnDown da Sprint 1](#51-burndown-da-sprint-2)
+- [7. Equipe do Projeto](#7-equipe-do-projeto)
+- [8. Links dos Repositórios](#8-links-dos-repositórios)
 
 ## **1. Objetivo do Projeto**
 
@@ -17,7 +20,7 @@ O objetivo deste projeto é desenvolver uma solução capaz de **automatizar a e
 
 ---
 
-## **2. Descrição da Problemática**
+## **2. Descrição do Problema**
 
 Empresas que utilizam sistemas de atendimento automatizado, como **chatbots, assistentes virtuais e CRMs**, geram **grandes volumes de dados textuais** a partir das interações entre clientes e sistemas de inteligência artificial. No entanto, transformar essa grande massa de informações em **insights estratégicos úteis** continua sendo um desafio.
 
@@ -47,15 +50,15 @@ O Product Backlog contém todas as funcionalidades organizadas por prioridade, d
 | **Geração de Insights e Dashboards**         | Alta       | Sprint 2, Sprint 3             |
 | **Gestão de Usuários e Controle de Acesso**  | Alta       | Sprint 1, Sprint 2             |
 | **Escalabilidade e Performance**             | Baixa      | Sprint 3                       |
-| **Segurança e Conformidade com LGPD/GDPR**   | Média      | Sprint 2                       |
-| **Integrações com APIs Externas**            | Alta       | Sprint 2, Sprint 3             |
+| **Segurança e Conformidade com LGPD/GDPR**   | Média      | Sprint 3                       |
+| **Integrações com APIs Externas**            | Alta       | Sprint 3                       |
 
 ---
 
 ### **3.1. User Stories**
 
-Cada User Story foi elaborada seguindo o formato:
-**“Como \<tipo de usuário\>, quero \<funcionalidade desejada\> para \<algum motivo que remeta valor para o negócio\>.”**
+Cada User Story foi elaborada seguindo o formato:  
+**“Como <tipo de usuário>, quero <funcionalidade desejada> para <algum motivo que remeta valor para o negócio>.”**
 
 #### **Mecanismo de Extração de Informações**
 
@@ -107,13 +110,14 @@ Cada User Story foi elaborada seguindo o formato:
 7. **Como Admin, quero que o sistema seja escalável e tenha boa performance para suportar grandes volumes de dados.**
    - Critérios de Aceitação:
      - O sistema deve ser capaz de processar grandes volumes de dados sem perda de performance.
-     - Deve haver suporte para múltiplos usuários simultâneos
+     - Deve haver suporte para múltiplos usuários simultâneos.
 
 ---
 
 ## **4. Sprint Backlog - Primeira Sprint**
 
-### **Objetivo da Sprint:** Criar um **protótipo navegável no Figma** e iniciar a implementação de funcionalidades básicas de PLN, com foco na extração de dados de um CSV e pré-processamento de texto
+### **Objetivo da Sprint:**  
+Criar um **protótipo navegável no Figma** e iniciar a implementação de funcionalidades básicas de PLN, com foco na extração de dados de um CSV e pré-processamento de texto
 
 | Rank | Prioridade | User Story                                                                                                                 | Estimativa |
 | ---- | ---------- | -------------------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -121,6 +125,10 @@ Cada User Story foi elaborada seguindo o formato:
 | 2    | Alta       | Como Admin, quero cadastrar interações a partir de um arquivo CSV.                                                         | 5          |
 | 3    | Média      | Como Admin, quero realizar buscas semânticas e visualizar os resultados extraídos.                                         | 8          |
 | 4    | Média      | Como Admin, quero visualizar um dashboard com filtros de classificação e sumarização das interações. (Protótipo Navegável) | 5          |
+
+### **4.1. BurnDown da Sprint 1**
+
+![BurnDown da Sprint 1](/img/burndown_sprint1.png)
 
 ### **Telas e Funcionalidades da Primeira Sprint:**
 
@@ -146,11 +154,66 @@ Cada User Story foi elaborada seguindo o formato:
    - Aplicar técnicas básicas de **pré-processamento de texto**, como remoção de stopwords, normalização e tokenização.
    - **Resultado esperado:** CSV carregado e texto processado para futuras análises semânticas.
 
-## **5. BurnDown da Sprint 1**
+## **5. Sprint Backlog - Segunda Sprint**
 
-![BurnDown da Sprint 1](/img/burndown_sprint1.png)
+### **Objetivo da Sprint:**  
 
-## **6. Equipe do Projeto**
+Desenvolver funcionalidades adicionais no sistema, incluindo a implementação de mecanismos de busca semântica, sumarização automática de interações, e a criação de dashboards para visualização de dados.
+
+| Rank | Prioridade | User Story                                                                                                                 | Estimativa |
+| ---- | ---------- | -------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1    | Alta       | Como Admin, quero configurar filtros na busca semântica para refinar os resultados exibidos.                                | 8          |
+| 2    | Alta       | Como Admin, quero obter um resumo automático das interações para economizar tempo na análise dos atendimentos.             | 8          |
+| 3    | Alta       | Como Admin, quero visualizar insights e métricas em um dashboard para acompanhar a performance do atendimento.              | 13         |
+| 4    | Média      | Como Admin, quero permitir a integração da busca semântica com um banco de vetores (ex. Pinecone) para otimizar a busca.    | 5          |
+| 5    | Média      | Como Admin, quero integrar a sumarização automática ao sistema para gerar insights diários automaticamente.               | 10         |
+
+### **5.1. BurnDown da Sprint 2**
+
+![BurnDown da Sprint 2](/img/burndown_sprint2.png)
+
+### **Telas e Funcionalidades da Segunda Sprint:**
+
+1. **Busca Semântica com Filtros**  
+   - **Objetivo:** Permitir que o admin refine as buscas por palavras-chave e categorias, utilizando filtros semânticos.  
+   - **Resultado Esperado:** Funcionalidade para filtrar resultados de busca e integrá-los com o banco de vetores (ex. Pinecone).
+
+2. **Sumarização Automática das Interações**  
+   - **Objetivo:** Implementar a sumarização automática das interações para que o admin consiga identificar rapidamente os principais pontos de cada conversa.  
+   - **Resultado Esperado:** A geração de resumos automáticos das conversas, acessíveis via API.
+
+3. **Dashboard de Insights e Métricas**  
+   - **Objetivo:** Criar um dashboard que mostre métricas como número de dúvidas, reclamações, tipos de interação, com filtros por data e categoria.  
+   - **Resultado Esperado:** Uma interface interativa com gráficos e métricas claras para análise de performance de atendimento.
+
+4. **Integração de Busca Semântica com Banco de Vetores**  
+   - **Objetivo:** Integrar a busca semântica com um banco de vetores como o Pinecone, para melhorar a relevância e eficiência na busca.  
+   - **Resultado Esperado:** A busca semântica deve retornar resultados mais relevantes com base em contextos semânticos.
+
+5. **Integração da Sumarização Automática**  
+   - **Objetivo:** Incorporar a sumarização automática de interações no sistema, gerando insights diários.  
+   - **Resultado Esperado:** O sistema deve gerar relatórios diários automáticos que sumarizam as interações e apresentam informações úteis para a análise.
+
+### **Critérios de Aceitação:**
+
+- **Busca Semântica**: 
+  - Filtros por palavra-chave e categoria funcionando corretamente.
+  - Integração com o banco de vetores, com resultados relevantes e ordenados.
+  
+- **Sumarização Automática**: 
+  - Resumos concisos e claros para cada interação.
+  - A API deve ser capaz de acessar as sumarizações de forma eficiente.
+
+- **Dashboard**: 
+  - Métricas visíveis e filtráveis por diferentes parâmetros (data, tipo de interação).
+  - Exibição de gráficos de fácil entendimento.
+
+- **Integração da Busca Semântica e Sumarização**: 
+  - Implementação de integração entre a busca semântica e a sumarização de interações, tornando a plataforma mais inteligente e dinâmica.
+
+
+
+## **7. Equipe do Projeto**
 
 |    Função     | Nome                           |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
 | :-----------: | :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -159,9 +222,9 @@ Cada User Story foi elaborada seguindo o formato:
 |   Dev Team    | Gabriel Brosig Briscese        |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-brosig-briscese-344a5587/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Briscese)   |
 |   Dev Team    | Jonas Rafael Siqueira Ribeiro      |                 [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonasrsribeiro/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/jonasrsribeiro)         |
 |   Scrum Master  | Jonatas Mathias Dalló     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonatas-mathias-147638206) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Jonatas-Dallo)          |
-|   Product Owner   | Miguel Carvalho Soares     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-carvalho-soares-722b161a3/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Miguel-C1)          |
+|   Product Owner   | Miguel Carvalho Soares     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-carvalho-soares-722b161a3/) [![GitHub Badge](https://img.shields.io-badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Miguel-C1)          |
 
-## **7. Links dos Repositórios**
+## **8. Links dos Repositórios**
 
 Aqui estão os links para os repositórios relacionados ao projeto:
 
