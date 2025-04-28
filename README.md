@@ -226,5 +226,6 @@ Aqui estão os links para os repositórios relacionados ao projeto:
 
 - [Pré-processamento](https://github.com/AntedeguemonAPI/pre-processamento)
 - [Banco de Dados](https://github.com/AntedeguemonAPI/banco-de-dados)
+- [Processamento](https://github.com/AntedeguemonAPI/processamento)
 - [Frontend](https://github.com/AntedeguemonAPI/frontend)
 - [Controller de Usuários e Autenticação](https://github.com/AntedeguemonAPI/controller-usuarios-autenticao)
