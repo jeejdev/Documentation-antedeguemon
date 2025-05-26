@@ -3,14 +3,15 @@
 ## **Sumário**
 
 - [1. Objetivo do Projeto](#1-objetivo-do-projeto)
-- [2. Descrição da Problemática](#2-descrição-da-problemática)
+- [2. Descrição da Problemática](#2-descrição-do-problema)
 - [3. Product Backlog](#3-product-backlog)
   - [3.1. User Stories](#31-user-stories)
 - [4. Sprint Backlog - Primeira Sprint](#4-sprint-backlog---primeira-sprint)
-     - [4.1. BurnDown da Sprint 1](#41-burndown-da-sprint-1)
-
+     -[4.1. BurnDown da Sprint 1](#41-burndown-da-sprint-1)
 - [5. Sprint Backlog - Segunda Sprint](#5-sprint-backlog---segunda-sprint)
-     - [5.1. BurnDown da Sprint 1](#51-burndown-da-sprint-2)
+     -[5.1. BurnDown da Sprint 2](#51-burndown-da-sprint-2)
+- [6. Sprint Backlog - Terceira Sprint](#6-sprint-backlog---terceira-sprint)
+     -[6.1 BurnDown da Sprint 3](#61-burndown-da-sprint-3)
 - [7. Equipe do Projeto](#7-equipe-do-projeto)
 - [8. Links dos Repositórios](#8-links-dos-repositórios)
 
@@ -116,7 +117,7 @@ Cada User Story foi elaborada seguindo o formato:
 
 ## **4. Sprint Backlog - Primeira Sprint**
 
-### **Objetivo da Sprint:**  
+### **Objetivo da Sprint:**
 Criar um **protótipo navegável no Figma** e iniciar a implementação de funcionalidades básicas de PLN, com foco na extração de dados de um CSV e pré-processamento de texto
 
 | Rank | Prioridade | User Story                                                                                                                 | Estimativa |
@@ -156,7 +157,7 @@ Criar um **protótipo navegável no Figma** e iniciar a implementação de funci
 
 ## **5. Sprint Backlog - Segunda Sprint**
 
-### **Objetivo da Sprint:**  
+### **Objetivo da Sprint:**
 
 Desenvolver funcionalidades adicionais no sistema, incluindo a implementação de mecanismos de busca semântica, sumarização automática de interações, e a criação de dashboards para visualização de dados.
 
@@ -192,11 +193,11 @@ Desenvolver funcionalidades adicionais no sistema, incluindo a implementação d
 
 ### **Critérios de Aceitação:**
 
-- **Busca Semântica**: 
+- **Busca Semântica**:
   - Filtros por palavra-chave e categoria funcionando corretamente.
   - Integração com o banco de vetores, com resultados relevantes e ordenados.
   
-- **Sumarização Automática**: 
+- **Sumarização Automática**:
   - Resumos concisos e claros para cada interação.
   - A API deve ser capaz de acessar as sumarizações de forma eficiente.
 
@@ -207,7 +208,58 @@ Desenvolver funcionalidades adicionais no sistema, incluindo a implementação d
 - **Integração da Busca Semântica e Sumarização**: 
   - Implementação de integração entre a busca semântica e a sumarização de interações, tornando a plataforma mais inteligente e dinâmica.
 
+## **6. Sprint Backlog - Terceira Sprint**
 
+### **Objetivo da Sprint:**
+
+Implementar funcionalidades de segurança e conformidade com LGPD, otimização de performance para escalabilidade do sistema, melhoria de dashboards e modelagem de tópicos.
+
+| Rank | Prioridade | User Story                                                                                                                 | Estimativa |
+| ---- | ---------- | -------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1    | Alta       | Como Admin, quero garantir que o sistema esteja em conformidade com a LGPD.                                                 | 8          |
+| 2    | Alta       | Como Analista, quero visualizar dashboards otimizados para facilitar a análise dos dados.                                   | 5          |
+| 3    | Média      | Como Usuário, quero que os tópicos dos textos sejam modelados automaticamente para facilitar a categorização.              | 8          |
+| 4    | Baixa      | Como Admin, quero que o sistema seja escalável e tenha boa performance.                                                     | 8          |
+
+### **6.1. BurnDown da Sprint 3**
+
+![BurnDown da Sprint 3](/img/burndown_sprint3.png)
+
+### **Telas e Funcionalidades da Terceira Sprint:**
+
+1. **Segurança e Conformidade com LGPD**
+   - **Objetivo:** Aplicar medidas de proteção de dados para garantir o cumprimento da legislação brasileira (LGPD).
+   - **Resultado Esperado:** Dados sensíveis protegidos, com possibilidade de anonimização e consentimento de uso informado.
+
+2. **Escalabilidade e Performance**
+   - **Objetivo:** Otimizar o backend para suportar grandes volumes de dados e múltiplos usuários simultaneamente.
+   - **Resultado Esperado:** Sistema com respostas rápidas e baixo consumo de recursos em cargas elevadas.
+
+3. **Melhoria de Dashboards**
+   - **Objetivo:** Refinar e aprimorar os dashboards para torná-los mais intuitivos, informativos e responsivos.
+   - **Resultado Esperado:** Dashboards mais claros, com filtros eficientes e melhor desempenho visual.
+
+4. **Modelagem de Tópicos**
+   - **Objetivo:** Implementar algoritmos de NLP para extração automática de tópicos em textos.
+   - **Resultado Esperado:** Geração automática de tópicos relevantes a partir dos textos analisados.
+
+### **Critérios de Aceitação:**
+
+- **LGPD:**
+  - O sistema deve anonimizar dados sensíveis.
+  - Usuários devem aceitar os termos de uso e consentimento.
+
+- **Performance:**
+  - Backend responde em menos de 2 segundos sob carga.
+  - Escalabilidade horizontal prevista em arquitetura.
+
+- **Dashboards:**
+  - Visualização rápida e clara dos dados.
+  - Interatividade funcional (filtros, tempo real).
+
+- **Modelagem de Tópicos:**
+  - Tópicos coerentes e relevantes gerados a partir de textos.
+  - Processamento realizado com bom desempenho.
 
 ## **7. Equipe do Projeto**
 
@@ -218,7 +270,7 @@ Desenvolver funcionalidades adicionais no sistema, incluindo a implementação d
 |   Dev Team    | Gabriel Brosig Briscese        |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-brosig-briscese-344a5587/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Briscese)   |
 |   Dev Team    | Jonas Rafael Siqueira Ribeiro      |                 [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonasrsribeiro/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/jonasrsribeiro)         |
 |   Scrum Master  | Jonatas Mathias Dalló     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jonatas-mathias-147638206) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Jonatas-Dallo)          |
-|   Product Owner   | Miguel Carvalho Soares     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-carvalho-soares-722b161a3/) [![GitHub Badge](https://img.shields.io-badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Miguel-C1)          |
+|   Product Owner   | Miguel Carvalho Soares     |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-carvalho-soares-722b161a3/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Miguel-C1)          |
 
 ## **8. Links dos Repositórios**
 
