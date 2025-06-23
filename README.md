@@ -276,8 +276,8 @@ Implementar funcionalidades de segurança e conformidade com LGPD, otimização 
 
 Aqui estão os links para os repositórios relacionados ao projeto:
 
-- [Pré-processamento](https://github.com/AntedeguemonAPI/pre-processamento)
-- [Banco de Dados](https://github.com/AntedeguemonAPI/banco-de-dados)
-- [Processamento](https://github.com/AntedeguemonAPI/processamento)
-- [Frontend](https://github.com/AntedeguemonAPI/frontend)
-- [Controller de Usuários e Autenticação](https://github.com/AntedeguemonAPI/controller-usuarios-autenticao)
+- [Pré-processamento](https://github.com/jeejdev/pre-processamento-antedeguemon)
+- [Banco de Dados](https://github.com/jeejdev/banco-de-dados-antedeguemon)
+- [Processamento](https://github.com/jeejdev/processamento-antedeguemon)
+- [Frontend](https://github.com/jeejdev/frontend-antedeguemon)
+- [Controller de Usuários e Autenticação](https://github.com/jeejdev/controller-usuarios-autenticao-antedeguemon)
